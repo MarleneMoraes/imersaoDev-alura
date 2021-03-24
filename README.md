@@ -6,7 +6,7 @@ Este repositório faz parte da Imersão Dev, um *bootcamp* da Alura composto de 
 
   ​	O desafio é criar uma simples conversão em **JavaScript**, juntamente com **HTML** e **CSS**. Os instrutores deram a liberdade de criarmos o nosso próprio programa, com outros temas. Tomei a liberdade de editar o código inicial com um *fork* no CodePen, site no qual foi ministrada a aula. 
 
-  <a src=https://codepen.io/imersao-dev/pen/ExNLJeZ>Código inicial do Dia 1</a>
+  [Código inicial do Dia 1](https://codepen.io/imersao-dev/pen/ExNLJeZ)
 
 - Dia 2: Calculadora e laços condicionais no JavaScript
 
