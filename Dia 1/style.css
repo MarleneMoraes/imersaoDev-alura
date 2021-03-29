@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto Mono',monospace;
     min-height: 854px;
-    background-image: url('https://inews-prd-a-images.s3.eu-west-2.amazonaws.com/content/uploads/2019/10/shutterstock_1479789158.jpg');
+    background-image: url('./img/fundo_temp.jpg') ;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -47,6 +47,23 @@ body {
     margin: 20px;
     padding: 12px;
     border-radius: 15px;
+  }
+  
+  footer{
+    padding: 0%;
+    margin: 0%;
+    font-size: small;
+    color:white;
+    height: 2vh;
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer a:hover{
+    color: rgb(177, 177, 177);
   }
 
 
