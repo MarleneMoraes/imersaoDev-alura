@@ -1,0 +1,79 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 600px;
+  background-image: url('https://www.themoviedb.org/t/p/original/1N0sugtZ7SDFmLUxeTMqki3k6FC.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  width: 400px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-logo {
+  width: 200px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-subtitle {
+  color: black;
+  margin-top: 10px;
+}
+
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+input{
+  font-size: large;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button{
+  margin: 2px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer{
+  color:rgb(87, 176, 206);
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(87, 176, 206);
+}
+
+footer a:hover{
+  color: white;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height:800px;
+  }
+}
+
