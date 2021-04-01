@@ -35,6 +35,7 @@ body {
 .page-subtitle {
   color: black;
   margin-top: 10px;
+  font-size: 18px;
 }
 
 
@@ -45,30 +46,25 @@ body {
   right:10px;
 }
 
-input{
-  font-size: large;
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 10px;
-}
 
 .button{
+  width:200px;
   margin: 2px auto;
   padding: 10px;
   border-radius: 10px;
 }
 
 footer{
-  color:rgb(87, 176, 206);
+  color:#b891d3;
 }
 
 footer a{
   text-decoration: none;
-  color: rgb(87, 176, 206);
+  color:#b891d3;
 }
 
 footer a:hover{
-  color: white;
+  color: black;
 }
 
 @media (max-height: 500px) {
@@ -76,4 +72,3 @@ footer a:hover{
     min-height:800px;
   }
 }
-
