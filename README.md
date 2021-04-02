@@ -6,7 +6,7 @@
 
 - Dia 1: Conversor de Moedas e Variáveis no JavaScript
 
-  ​	O desafio é criar uma simples conversão em **JavaScript**, juntamente com **HTML** e **CSS**. Os instrutores deram a liberdade de criarmos o nosso próprio programa, com outros temas. Tomei a liberdade de editar o código inicial com um *fork* no CodePen, site no qual foi ministrada a aula. 
+  ​	O desafio é criar uma simples conversão em JavaScript. Os instrutores deram a liberdade de criarmos o nosso próprio programa, com outros temas e mudanças no CSS. Tomei a liberdade de editar o código inicial com um *fork* no CodePen, site no qual foi ministrada a aula. 
 
   [Código inicial do Dia 1](https://codepen.io/imersao-dev/pen/ExNLJeZ)
 
@@ -14,17 +14,21 @@
 
 - Dia 2: Calculadora e laços condicionais no JavaScript
 
-  ​	O desafio é criar uma condicional em **JavaScript**, juntamente com **HTML** e **CSS**. Os instrutores deram a liberdade de criarmos o nosso próprio programa, mas sugeriram realizar um programa que descobrisse o Pokémon relacionado a imagem. Realizei uma edição no código inicial com um *fork* no CodePen, site no qual foi ministrada a aula, e utilizei mais recursos do que os que foram ensinados. 
+  ​	O desafio é criar uma condicional na linguagem JavaScript. Os instrutores deram a liberdade de criarmos o nosso próprio programa, mas sugeriram realizar um programa que descobrisse o Pokémon relacionado a imagem. Realizei uma edição no código inicial de HTML e CSS com um *fork* no CodePen, site no qual foi ministrada a aula, e utilizei mais recursos do que os que foram ensinados. 
 
   [Código inicial do Dia 2](https://codepen.io/imersao-dev/pen/BapBRLV)
 
 - Dia 3: Mentalista e números aleatórios
 
-  O desafio é criar uma estrutura de repetição em **JavaScript**, juntamente com **HTML** e **CSS**. Os instrutores deram a liberdade de criarmos o nosso próprio programa,  mas sugeriram realizar um programa que o usuário descobrisse um número aleatório em três tentativas. Realizei uma edição no código inicial com um *fork* no CodePen, site no qual foi ministrada a aula, e, como o nome do programa é o nome de uma série, eu tomei a liberdade de fazer o design voltado a ela.
+  O desafio é criar uma estrutura de repetição *while* em JavaScript. Os instrutores deram a liberdade de criarmos o nosso próprio programa,  mas sugeriram realizar um programa que o usuário descobrisse um número aleatório em três tentativas. Realizei uma edição no código inicial com um *fork* no CodePen, site no qual foi ministrada a aula, e, como o nome do programa é o nome de uma série, eu tomei a liberdade de fazer o design voltado a ela.
 
   [Código inicial do Dia 3](https://codepen.io/imersao-dev/pen/XWprwwK)
 
 - Dia 4: AluraFlix
+
+  O desafio é criar uma estrutura de repetição *for* e vetores em JavaScript. Os instrutores deram a liberdade de criarmos o nosso próprio programa baseado no código inicial, criando um *fork* no CodePen e deram três desafios: criar outro vetor armazenando o títulos do catálogo; criar um prompt exibindo apenas as imagens que foram solicitadas; e que as imagens solicitadas não se repitam. 
+
+  [Código inicial do Dia 4](https://codepen.io/imersao-dev/pen/XWpWrYm)
 
 - Dia 5: Refatorando o AluraFlix com funções
 
