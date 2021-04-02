@@ -40,6 +40,8 @@
 
 - Dia 9: Trunfo e lógica de rodadas com JavaScript
 
+- Dia 10: Certificard
+
   ​	
 
   
