@@ -1,11 +1,59 @@
-var listaPoster = ["https://m.media-amazon.com/images/M/MV5BYTM5MDg3MGMtODAyYy00MGQ0LWJhM2MtZDFmMjAzNTFhZGRmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR4,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BOWFhY2JkYmItM2U0MC00NjM5LTk4N2UtYTY2MTZmNmEzMTQyXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_UY268_CR0,0,182,268_AL_.jpg", "https://m.media-amazon.com/images/M/MV5BYzBhOWU4ODAtZDYzYi00NDU1LWIzZWUtNDZmMDgxODljZTVmXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_UX182_CR0,0,182,268_AL_.jpg"]
+//listaFilmes
 
-var listaTitulo = ["Cidade Invisível", "M-8: Quando a Morte Socorre a Vida", "Project Power"]
+var filmesAnimacao = []
 
-for (var i=0; i < listaPoster.length; i++){
-    document.write("<img src=" + listaPoster[i] + ">")
-}
+var filmesAventura = []
 
-for (var i=0; i < listaTitulo.length; i++){
-    document.write("<p" + listaTitulo[i] + ">")
-}
+var filmesAcao = []
+
+var filmesComedia = []
+
+var filmesRomance = []
+
+var filmesSuspense = []
+
+//fim listaFilmes
+
+
+//interação
+var button = document.querySelector('button');
+
+
+button.onclick = function() {
+    var escolha = (prompt("Escolha 1 para Animação, 2 para Aventura, 3 para Ação, 4 para Comédia, 5 para Romance, 6 para Suspense, 7 para Todos os gêneros."))
+
+    switch (escolha){
+        case 1:
+            for (var i = 0; i < listaSeries.length; i++){
+                document.write("<div class='film'>", "<img src=" + filmesAnimacao + ">", "<h2>" + title [i] + "</h2>", "</div>")
+                break;    
+        case 2:
+            for (var i = 0; i < listaSeries.length; i++){
+                document.write("<div class='film'>", "<img src=" + filmesAventura + ">", "<h2>" + title [i] + "</h2>", "</div>")
+                break;
+        case 3:
+            for (var i = 0; i < listaSeries.length; i++){
+                document.write("<div class='film'>", "<img src=" + filmesAcao + ">", "<h2>" + title [i] + "</h2>", "</div>")
+                break;
+        case 4:
+            for (var i = 0; i < listaSeries.length; i++){
+                document.write("<div class='film'>", "<img src=" + filmesComedia + ">", "<h2>" + title [i] + "</h2>", "</div>")
+                break;
+
+        case 5:
+            for (var i = 0; i < listaSeries.length; i++){
+                document.write("<div class='film'>", "<img src=" + filmesRomance + ">", "<h2>" + title [i] + "</h2>", "</div>")
+                        break;          
+        case 6:
+            for (var i = 0; i < listaSeries.length; i++){
+                document.write("<div class='film'>", "<img src=" + filmesSuspense + ">", "<h2>" + title [i] + "</h2>", "</div>")
+                break;
+        case 7:
+            for (var i = 0; i < listaSeries.length; i++){
+                document.write("<div class='film'>", "<img src=" + filmesAnimacao + filmesAventura + filmesAcao + filmesComedia + filmesRomance + filmesSuspense + ">", "<h2>" + title [i] + "</h2>", "</div>")
+                break;
+        default: alert("Não entendi o que você quis dizer... atualize a página para tentar novamente")
+    }    
+}            
+//fim interação   
+
