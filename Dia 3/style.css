@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto Mono',monospace;
   min-height: 600px;
-  background-image: url('https://www.themoviedb.org/t/p/original/1N0sugtZ7SDFmLUxeTMqki3k6FC.jpg');
+  background-image: url('./img/background.jpg');
   background-color: #000000;
   background-size: cover;
   background-position: center bottom;
