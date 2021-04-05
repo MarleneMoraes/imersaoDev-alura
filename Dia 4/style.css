@@ -1,12 +1,13 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:center;
-    background-image: url('http://www.metaconstrucoes.srv.br/wp-content/uploads/2018/10/background-black-construtora-em-curitiba-1.jpg');
-    background-size: cover 100%;
-    background-color: #000000;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  font-family: Arial;
+  text-align:center;
+  color: white;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
   
   .container {
     text-align: center;
@@ -15,7 +16,7 @@ body {
   
   .page-title {
     color: rgb(41,122,227);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Ubuntu;
     margin: 0 0 5px;
   }
   
@@ -39,22 +40,46 @@ body {
     margin: 0 10px;
   }
 
-  p{
+  h2{
+    text-align: left;
     padding: 10px;
+  }
+  
+  
+  p{
     color: white;
   }
 
-  button{
-    width:100px;
-    margin: 2px auto;
-    padding: 10px;
-    border-radius: 10px;
-  }
+/* layout em 3 colunas */
+.filme {
+  float: left;
+  width: 33.33%;
+}
 
-  footer{
-    position: absolute;
-    bottom: 10px;
-    left:10px;
+/* layout em 4 colunas */
+.filmes {
+  float: left;
+  width: 25%;
+}
+
+/*div pai do layout*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*responsividade*/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+ /*footer{
+    display: absolute;
+    text-align: left;
+    top:10px;
     margin: 0 auto; 
     font-size: smaller;
     color: white;
@@ -67,5 +92,5 @@ body {
 
   footer a:hover{
     color: rgb(41,122,227);
-  }
+  }*/
   
