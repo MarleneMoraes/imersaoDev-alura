@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
+body {
+  background-image: linear-gradient(to top, #efe3f7, #986CE5);
+  background-attachment: fixed;
+  font: 15pt 'Big Shoulders Display';
+}
+
+
+section {
+  box-shadow: 2px 15px 23px -5px rgba(0,0,0,0.38); 
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color:#DDDAE3;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+section h1 {
+  font-size: 20px;
+  color:#000000;
+}
+
+header {
+  background-image: url('./img/wallpapersden.com_the-matrix-4k_2560x1080.jpg');
+  background-size: cover;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-55%);
+  border: 8px solid #DDDAE3;
+}
+
+.name{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:5px;  
+}
+
+.name img{
+  width:30px;
+  height:30px;
+  padding: 5px;
+  margin-top:5px;
+}
+
+.title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border:0px;
+  color: white;
+}
+
+.title img{
+  margin: -20px 10px;
+  height:40px;
+  width:200px;
+}
+
+li{
+  background-color: #b09fce;
+  list-style: none;
+  width: 300px;
+  height: 10x;
+  padding: 8px;
+  margin: 3px;
+  margin-left:-35px;
+  border-left: 5px solid #6131b2;
+ }
+
+li a{
+  text-decoration:none;
+  color: black;
+}
+
+li a:hover{
+  text-decoration:none;
+  color: white;
+}
+
+span{
+  color:gray;
+}
+
+ /*footer{
+    display: absolute;
+    text-align: left;
+    top:10px;
+    margin: 0 auto; 
+    font-size: smaller;
+    color: white;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+
+  footer a:hover{
+    color: rgb(41,122,227);
+  }*/
+  
