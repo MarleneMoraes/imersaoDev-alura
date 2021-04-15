@@ -70,7 +70,7 @@ header {
   justify-content: center;
   align-items: center;
   border:0px;
-  color: white;
+  color: #ffffff;
 }
 
 .title img{
@@ -92,33 +92,32 @@ li{
 
 li a{
   text-decoration:none;
-  color: black;
+  color: #000000;
 }
 
 li a:hover{
   text-decoration:none;
-  color: white;
+  color: #ffffff;
 }
 
 span{
-  color:gray;
+  color:#808080;
 }
 
- /*footer{
+ footer{
     display: absolute;
     text-align: left;
-    top:10px;
-    margin: 0 auto; 
+    margin-top: 15px; 
     font-size: smaller;
-    color: white;
+    color: #986CE5;
   }
 
   footer a{
     text-decoration: none;
-    color: white;
+    color: #986CE5;
   }
 
   footer a:hover{
-    color: rgb(41,122,227);
-  }*/
+    color: #6131b2;
+  }
   
